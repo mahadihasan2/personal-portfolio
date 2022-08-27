@@ -41,14 +41,47 @@
 
                     <!-- Tab Titals Section  -->
                     <div class="tabtitals">
-                        <p class="tablinks active-link">Skills</p>
-                        <p class="tablinks">Experience</p>
-                        <p class="tablinks">Education</p>
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- Skill Section -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+
+                            <li><span>Web Development</span><br>Web App Development</li>
+
+                            <li><span>App Development</span><br>Building Android/IOS App</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience Section  -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>UI/UX Design Training at ET Institute </li>
+
+                            <li><span>2019-2021</span><br>Team Lead at Start App LLC</li>
+
+                            <li><span>2017 - 2019</span><br>InterShip at ekart eCommerce</li>
+                        </ul>
+                    </div>
+                    <!-- Education Section -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>UI/UX Design Training at ET Institute</li>
+
+                            <li><span>2018</span><br>CSE at Institute of Science Trade and Technology </li>
+
+                            <li><span>2022</span><br>MSC at Dhaka University</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     
+
+    <script src="app.js"></script>
 </body>
 </html>
